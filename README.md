@@ -70,10 +70,10 @@ Footer
 [Flems Playground](https://github.com/porsager/flems) - Mithril & JavaScript Playground.
 
 ## Artwork
-* 8Tankokai MT artwork by Obed Jose (ego) 
+* Tankokai MT artwork by Obed Jose (ego) 
 * [Twitter](https://twitter.com/designcosmic)
 * [facebook](https://www.facebook.com/trip.of.ego/)
-
+---
 Tachyons artwork by skullcat 
 * [www](http://mrmrs.cc/)
 * [Twitter](https://twitter.com/mrmrs_)
@@ -102,6 +102,7 @@ Tankokai MT was created using La RACHE software development processes.
 Thanks to
 * [Obed Jose (ego) T-Shirt](https://doeb.storenvy.com/)
 * [Je Love Montreal T-Shirt by Var Oem](https://varoem.com/Je-love-Montreal)
+---
 ![I Love Montreal](https://raw.githubusercontent.com/tankokai/media/master/tshirt/i-love-montreal-00.png)
 
 From Montreal with Love
