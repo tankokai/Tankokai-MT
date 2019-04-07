@@ -101,7 +101,7 @@ Tankokai MT was created using La RACHE software development processes.
 ## Support 
 Thanks to
 * [Obed Jose (ego) T-Shirt](https://doeb.storenvy.com/)
-* [Je Love Montreal T-Shirt by Var Oem](https://varoem.com/Je-love-Montreal)
+* [Je Love Montreal T-Shirt by Var Oem](https://varoem.com/lovemontreal)
 ---
 ![I Love Montreal](https://raw.githubusercontent.com/tankokai/media/master/tshirt/i-love-montreal-00.png)
 
