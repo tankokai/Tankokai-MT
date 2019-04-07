@@ -41,23 +41,23 @@ Footer
 > If you don't have the ability to run a local testing server, Use the flems link on top of each demo page. 
 
 ## Technologies
-** Mithril JS - version 1.1.6
-[Project Home Page](https://mithril.js.org/)
-[Project Github](https://github.com/MithrilJS/mithril.js)
-[Mithril Getting Started](https://mithril-examples.firebaseapp.com/gettingstarted)
-[Learn Mithril](https://github.com/osban/mithril-codex/blob/master/how2code.md)
-[Donate] (https://opencollective.com/mithriljs)
+### Mithril JS - version 1.1.6
+* [Project Home Page](https://mithril.js.org/)
+* [Project Github](https://github.com/MithrilJS/mithril.js)
+* [Mithril Getting Started](https://mithril-examples.firebaseapp.com/gettingstarted)
+* [Learn Mithril](https://github.com/osban/mithril-codex/blob/master/how2code.md)
+* [Donate] (https://opencollective.com/mithriljs)
 
-** Tachyons CSS - version 4.10.0
-[Project Home Page](https://tachyons.io/)
-[Project Github](https://github.com/tachyons-css/tachyons/)
-[Learn Tachyons](https://github.com/dwyl/learn-tachyons)
-[Tachyons tldr](https://tachyons-tldr.now.sh/#/scales#Widths)
-[Donate] (https://opencollective.com/tachyons)
+### Tachyons CSS - version 4.10.0
+* [Project Home Page](https://tachyons.io/)
+* [Project Github](https://github.com/tachyons-css/tachyons/)
+* [Learn Tachyons](https://github.com/dwyl/learn-tachyons)
+* [Tachyons tldr](https://tachyons-tldr.now.sh/#/scales#Widths)
+* [Donate] (https://opencollective.com/tachyons)
 
-** Hyperscript
-[ycombinator](https://news.ycombinator.com/item?id=19241096)
-[Hyperscript Converter](https://github.com/ArthurClemens/mithril-template-converter)
+### Hyperscript
+* [ycombinator](https://news.ycombinator.com/item?id=19241096)
+* [Hyperscript Converter](https://github.com/ArthurClemens/mithril-template-converter)
 
 
 ## Credits
@@ -98,8 +98,8 @@ Tankokai MT was created using La RACHE software development processes.
 
 ## Support 
 Thanks to
-[Obed Jose (ego) T-Shirt](https://doeb.storenvy.com/)
-[Je Love Montreal T-Shirt by Var Oem](https://varoem.com/Je-love-Montreal)
+* [Obed Jose (ego) T-Shirt](https://doeb.storenvy.com/)
+* [Je Love Montreal T-Shirt by Var Oem](https://varoem.com/Je-love-Montreal)
 ![I Love Montreal](https://raw.githubusercontent.com/tankokai/media/master/tshirt/i-love-montreal-00.png)
 
 From Montreal with Love
