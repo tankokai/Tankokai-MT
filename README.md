@@ -81,7 +81,7 @@ Tachyons artwork by skullcat
 ## Alternative
 * [Polythene](https://github.com/ArthurClemens/polythene) - Material Design component library for Mithril and React.
 * [Demo](https://arthurclemens.github.io/polythene-demos/mithril/#/)
-
+---
 * [MUI](https://github.com/winterland1989/mui) - UI library for mithril.js
 * [Demo](http://winterland.me/mui)
 
