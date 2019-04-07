@@ -9,11 +9,13 @@ The purpose of the project is to show how Tachyons CSS fits with Mithril JS.
 
 ## Table of contents
 * [Screenshots](#screenshots)
-* [Technologies](#technologies)
 * [Setup](#setup)
+* [Technologies](#technologies)
 * [Credits](#credits)
-* [Development](#development)
+* [Artwork](#artwork)
+* [Alternative](#alternative)
 * [Status](#status)
+* [Development](#development)
 * [Support](#support)
 
 ## Screenshots
@@ -68,20 +70,20 @@ Footer
 [Flems Playground](https://github.com/porsager/flems) - Mithril & JavaScript Playground.
 
 ## Artwork
-Tankokai MT artwork by Obed Jose (ego) 
-[Twitter](https://twitter.com/designcosmic)
-[facebook](https://www.facebook.com/trip.of.ego/)
+* 8Tankokai MT artwork by Obed Jose (ego) 
+* [Twitter](https://twitter.com/designcosmic)
+* [facebook](https://www.facebook.com/trip.of.ego/)
 
 Tachyons artwork by skullcat 
-[www](http://mrmrs.cc/)
-[Twitter](https://twitter.com/mrmrs_)
+* [www](http://mrmrs.cc/)
+* [Twitter](https://twitter.com/mrmrs_)
 
 ## Alternative
-[Polythene](https://github.com/ArthurClemens/polythene) - Material Design component library for Mithril and React.
-[Demo](https://arthurclemens.github.io/polythene-demos/mithril/#/)
+* [Polythene](https://github.com/ArthurClemens/polythene) - Material Design component library for Mithril and React.
+* [Demo](https://arthurclemens.github.io/polythene-demos/mithril/#/)
 
-[MUI](https://github.com/winterland1989/mui) - UI library for mithril.js
-[Demo](http://winterland.me/mui)
+* [MUI](https://github.com/winterland1989/mui) - UI library for mithril.js
+* [Demo](http://winterland.me/mui)
 
 ## Status
 Project is: On Pause
