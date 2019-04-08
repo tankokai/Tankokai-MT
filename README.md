@@ -103,6 +103,6 @@ Thanks to
 * [Obed Jose (ego) T-Shirt](https://doeb.storenvy.com/)
 * [Je Love Montreal T-Shirt by Var Oem](https://varoem.com/jelovemontreal)
 ---
-![I Love Montreal](https://raw.githubusercontent.com/tankokai/media/master/tshirt/i-love-montreal-00.png)
+[![I Love Montreal](https://raw.githubusercontent.com/tankokai/media/master/tshirt/i-love-montreal-00.png)](https://varoem.com/jelovemontreal) 
 
 From Montreal with Love
