@@ -31,7 +31,7 @@ Forms Newsletter Subscription
 Footer
 ![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/screenshot058.jpg)
 
-...
+150+ ...
 
 ## Setup
 * Step 1 - Clone or Download Tankokai MT.
