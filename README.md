@@ -1,6 +1,6 @@
 # Tankokai MT
 Tankokai MT | HyperScript + Functional css | MithrilJS &amp; TachyonsCSS
-## [View Components Demo](https://github.com/tankokai/Tankokai-MT) 
+## [View Components Demo](https://tankokai.com/mt/) 
 On Chrome click on tankokai-0.0.0 button to load components.
 
 ## General info
