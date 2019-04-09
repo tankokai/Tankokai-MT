@@ -1,8 +1,8 @@
 # Tankokai MT
 Tankokai MT | HyperScript + Functional css | MithrilJS &amp; TachyonsCSS
-## [View Components Demo](https://tankokai.com/mt/) 
+## [View Components Demo](https://tankokai.com/mt/)
+Click on tankokai-0.0.0 button to load components.  
 ![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/readme01.png)
-Click on tankokai-0.0.0 button to load components.
 ## General info
 Create single page applications and design new UI with as little css as possible. 
 The purpose of the project is to show how Tachyons CSS fits with Mithril JS.
@@ -34,7 +34,8 @@ The purpose of the project is to show how Tachyons CSS fits with Mithril JS.
 [Github Help](https://help.github.com/en/articles/cloning-a-repository) 
 
 * Step 2 - In Tankokai MT folder Start your local testing server.
-[Mozilla MDN help](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server#Running_a_simple_local_HTTP_server)  python -m SimpleHTTPServer 8000
+[Mozilla MDN help](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server#Running_a_simple_local_HTTP_server)  
+$ python -m SimpleHTTPServer 8000
 
 > If you don't have the ability to run a local testing server, Use the flems link on top of each demo page. 
 
