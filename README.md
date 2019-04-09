@@ -1,8 +1,10 @@
 # Tankokai MT
 Tankokai MT | HyperScript + Functional css | MithrilJS &amp; TachyonsCSS
+
 ## [View Components Demo](https://tankokai.com/mt/)
 Click on tankokai-0.0.0 button to load components.  
 ![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/readme01.png)
+
 ## General info
 Create single page applications and design new UI with as little css as possible. 
 The purpose of the project is to show how Tachyons CSS fits with Mithril JS.
@@ -16,7 +18,9 @@ The purpose of the project is to show how Tachyons CSS fits with Mithril JS.
 * [Alternative](#alternative)
 * [Status](#status)
 * [Development](#development)
-* [Support](#support)
+* [Sponsors](#sponsors)
+* [License](#license)
+
 
 ## Screenshots
 
@@ -95,11 +99,14 @@ Tankokai MT was created using La RACHE software development processes.
 * Prototypes in production
 * French Tech
 
-## Support 
+## Sponsors 
 Thanks to
 * [Obed Jose (ego) T-Shirt](https://doeb.storenvy.com/)
 * [Je Love Montreal T-Shirt by Var Oem](https://varoem.com/jelovemontreal)
 ---
 [![I Love Montreal](https://raw.githubusercontent.com/tankokai/media/master/tshirt/i-love-montreal-00.png)](https://varoem.com/jelovemontreal) 
 
-From Montreal With Love
+From Montreal With Love!
+
+## License
+MIT
