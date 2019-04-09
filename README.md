@@ -75,7 +75,7 @@ Footer
 * [facebook](https://www.facebook.com/trip.of.ego/)
 ---
 Tachyons artwork by skullcat 
-* [www](http://mrmrs.cc/)
+* [website](http://mrmrs.cc/)
 * [Twitter](https://twitter.com/mrmrs_)
 
 ## Alternative
@@ -105,4 +105,4 @@ Thanks to
 ---
 [![I Love Montreal](https://raw.githubusercontent.com/tankokai/media/master/tshirt/i-love-montreal-00.png)](https://varoem.com/jelovemontreal) 
 
-From Montreal with Love
+From Montreal With Love
