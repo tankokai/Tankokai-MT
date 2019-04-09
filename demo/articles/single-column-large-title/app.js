@@ -1,0 +1,111 @@
+//  tankokai.com/mt | Demo - Article Single Column Large Title | v0.0.0 
+
+var Nav1 =
+ m("header.bg-black-90.w-100.ph3.pv3.pv4-ns.ph4-m.ph5-l",
+  m("nav.f6.fw6.ttu.tracked", [
+  
+  m("a.link.dim.white.dib.h2.w2.br-100.mr3.[href='https://tankokai.com/mt/']",
+    m("svg[data-icon='facebook'][viewBox='0 0 32 32']", { style: { "fill": "currentcolor" } }, [
+     m("title", "Tankokai MT" ),
+     m("path[d='m16.264 1.8688c-4.1008 0-7.7186 2.3761-9.3317 6.1282-0.34356 0.79911-0.6604 1.931-0.74812 2.6742-0.05161 0.43714-0.06768 0.45925-0.58247 0.79385-3.614 2.3487-5.3575 6.8036-4.2924 10.968 0.43102 1.6853 1.2437 3.1367 2.5018 4.4671 2.9654 3.1352 7.4287 4.0207 11.461 2.2737l0.67934-0.29443 0.40256 0.19918c0.96258 0.47619 2.1952 0.85471 3.2584 1.0006 0.78225 0.10734 2.5146 0.0423 3.2881-0.12321 3.5813-0.76733 6.4264-3.282 7.5893-6.708 0.89504-2.6364 0.59471-5.8228-0.77076-8.179-0.71112-1.2271-1.9549-2.6086-2.9874-3.3179-0.36-0.24719-0.4114-0.32013-0.4114-0.58916 0-0.97165-0.63708-3.0419-1.2748-4.1424-1.8564-3.2033-5.1757-5.15-8.7818-5.15zm0.01637 1.4514c0.97588 0.002 1.3114 0.0389 2.0343 0.22715 2.0119 0.52434 3.6864 1.6461 4.9059 3.2856 0.7431 0.99898 1.3153 2.2876 1.5281 3.4412l0.07377 0.39965-0.70073-0.23811c-1.8502-0.62839-4.0018-0.68485-5.9331-0.15572-0.35464 0.0971-0.98072 0.32202-1.3914 0.5003l-0.74688 0.32429-0.55563-0.27969c-2.0665-1.0389-4.7275-1.2773-7.0768-0.63409-0.34938 0.0956-0.65859 0.15004-0.68731 0.1217-0.09557-0.0956 0.32551-1.3784 0.71165-2.168 0.94905-1.9407 2.7447-3.5745 4.7093-4.2853 1.1853-0.4289 1.8335-0.54089 3.1288-0.53843zm-5.8587 9.2236h11.156v2.0913l-4.3922-0.17537 0.33254 11.147h-3.0369l0.33255-11.147-4.3922 0.16668zm-4.362 0.31748c0.03538 0 0.1133 0.31975 0.17319 0.71079 0.38578 2.5201 1.8768 4.9799 3.9542 6.5231l0.61437 0.45627 0.05412 0.63405c0.24593 2.5311 1.8442 4.992 3.6077 6.7624 0 0.0797-1.0576 0.40162-1.7617 0.53636-1.4701 0.2812-3.3124 0.10204-4.774-0.46421-2.1436-0.83044-3.9719-2.6364-4.8461-4.7879-1.1517-2.8341-0.71611-6.1607 1.1184-8.5448 0.3806-0.49455 1.7367-1.8262 1.8598-1.8262zm20.239 0.30312 0.72881 0.73554c1.209 1.2203 1.8992 2.4402 2.3287 4.1171 0.23287 0.90925 0.28123 2.7619 0.09478 3.6295-0.29803 1.3867-0.83256 2.5685-1.656 3.6613-1.2555 1.6663-3.1937 2.8614-5.2823 3.2575v-0.00046c-0.86454 0.16441-2.4141 0.16366-3.2458-0.00053-0.33323-0.0658-0.90286-0.22299-1.2656-0.34885l-0.65915-0.18898c2.0309-2.0084 3.4014-4.001 3.8929-7.205l0.61183-0.3896c0.7996-0.50918 2.1732-1.8644 2.7191-2.683 0.82319-1.2343 1.3923-2.6093 1.6237-3.9236z']")
+    ])
+   ),
+  
+  m("a.link.dim.white.dib.h2.w2.br-100.mr3.[href='https://tachyons.io/components/']",
+    m("svg[data-icon='twitter'][viewBox='0 0 32 32']", {
+     style: {
+      "fill": "currentcolor"
+     }
+    }, [
+     m("title",
+      "Tachyons.io Components"
+     ),
+     m("path[d='m13.456 20.59c0.08802 0.28226-0.95188 2.1046-1.098 2.3603-1.1413 2.0179-2.7141 3.7139-3.5039 3.2551-0.94732-1.0089-0.20544-3.8806 0.11185-5.2981 0.90728-4.0092 1.8336-5.9446 3.1113-9.6855 0.12098-0.36066 0.20772-0.99525 0.53872-1.2258 0.33099-0.23055 0.87427-0.22827 1.2372-0.29447 5.7267-1.2449 12.225-0.63641 17.798-1.8513 0.30132-0.08902 0.38806-0.26479 0.33327-0.50676-0.03232-0.30848-0.08957-0.61384-0.1712-0.91308-0.14838-0.3561-1.7189-0.15751-2.5498-0.08218-5.3828 0.61794-11.375 0.77265-16.209 1.7668 0.32871-0.72818 0.66655-1.518 0.50904-2.3032-0.01899-0.09387-0.04493-0.18619-0.07761-0.2762-0.26708-0.73731-0.96558-1.2372-1.6983-1.4518-0.61404-0.18033-0.52958 0.24196-0.77612 0.73046-0.49701 0.94724-0.95112 2.0661-1.2783 3.0314-0.011377 0.07469-0.034488 0.1471-0.068481 0.21457-0.12036 0.14664-0.30685 0.22226-0.49534 0.20088-2.7822-0.00769-5.3241 0.5412-7.9643 0.81492-0.22827 0.0137-0.45654 0-0.68481 0.02283-0.15018-0.02337-0.30146 0.03488-0.39719 0.15294-0.34697 0.28077 0.13011 0.87427 0.34012 1.1413 0.45654 0.58665 0.72818 0.49078 1.3924 0.39491 1.9766-0.44349 4.122-0.41352 6.1313-0.46338 0.14153 0 0.37436-0.12098 0.45654 0.05022 0.029309 0.2322 0.025466 0.46739-0.011414 0.6985-1.4891 4.6418-3.0385 9.901-2.6867 14.267 0.10044 1.098 0.42915 1.4883 1.3902 2.1868 0.58209 0.4223 1.5568 0.5136 2.2599 0.36523 1.1137-0.25195 2.0545-0.99237 2.5612-2.0156l2.3352-4.5311z']")
+    ])
+   ),
+  
+  m("a.link.dim.white.dib.br-100.h2.w2.mr3.[href='https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4A9GIAEk4hjQBrWvIwR8dLGKzFJAH0kARGFlqSAtJICCAJ2IRqsSQGUIaAOYOAwrSgBXLGkkAGQwrVxhJABUIYgc9ADcABnwkhMkAHTQMuJDJADkMOIBGSQBeDMksAAo0kEIYDAATGCt8ACNXU1aoDGp5UwBOJIB3U0KEpIAHQgBmfAm42fmAFlM0ODnCFawNgFZTKBqKcorqkEw4-DAANkuhm+JiH3xiKx75GAbDyWRj46qajD4KAueT4BoQbZDQjRGBgiCtIgAJnwQ2RrSso3G+CwVlmyEIVhgYBKAHISMQJnBEBJZAolCo1LQNFoxCSALqHY7Sf4gOBxVzIBoYWSmOz0UlgHowVq0JTs5BxCAwIYAIVoAA9SalUtNEZJdeyvsBJHBiABPWCISTGmqQKAHJDpGg+KyEhh0KC0Kw1SSsX0Ub5c7mnWwxGBfGoROSKZQQSQAWQiPoAlEcAtJgzUJsLCILSVhCjdEVclpJCvgABxXCsV6imJb4MYJCuSBKmADs+HbhSrkmR03bV0KA3w02mhXbkhuhURFcRpiS0yW0x2V1bXf6-UKw6SVyuCVL5f644XXaWFZnffwV3bS3nKR2heKSWX3ZWKRv1fXSx2-UReySHY5yWScknbY8Kz2WYh1Lftz3bUwdlHHZ2x2KdKwSaYrnrfBET-Q8kn6L8X3HBI9XLasdmmMtcNffVGywydkR2BIe0kBslhvYpkSInZS1mQoVz1Ts7wrScGzIhJJ23fBOO43D2wHKBd3ApdTzwpZl2-MjV3XQpNx7ahCKuf8WxfQd9KvfSdj1JJIJA4pZlMw9knGNcwLnf89Kkpcr0fTj1wPRFqKcmsd0bYLEUc-AgME09B0U6ibjvEtTFC4SYorY9TBudtm3XLKWJWZEriw0tAP6BzEMrRFZ3ivLB1MCtG3A+LtxnUZcMRbtOv6Pj+lMErm2wnixJWWZx1axdsKSREHIGl9t3fUdEVY6ZTyWJbTyArd3NPfpuyuADrwHZs0uSTaBvLbrzxwwo7xWctINSpzMPWpCJxQ6rCj2Zr2wvCtvp2AAvLAUkLAcaJ-e6jPwA6gLM1zyNHJbAumLKr0wrTZu6n7Me3fp1xs5d+OvKsXJLId2LhhJf3o2ddLA5dnzh-ospbctxyoq9Z0HGibIvejNJnZTkkU9tQNHTcjvi8ZFPU9HtzrJ6WPva9Z2mAaJNYwHdwrc89iQ48TySH6ULVldOPK5IDvCtmpNslbVvnTmt2tljMKgeLOJrdddTvBaYp2Vd1tm8Crn6OtkQSPc9nLTCspw9turjhT5c7KTq1PUqlgSQOlwgwK+pm68gLp02PeW6tFJZmcJ1PPPg4QlJi79-9H06gd9fXbtCz2ZFC0RyrBlTyqpKvW8QPOlCf2pvLsobBnqPLHsqI22dCaesdjr45tCYE2ddZi9Hl1B6rILEyR+i6rDCBkn6rjiaOt2mL2G012rT0+yHF11PiyxXiBQg51MIR1FmOduoxAEIXfn+R2hY9wVjPu-EyfsJznlhphKiZk9KCWooufSqE9I10JmBMY4E-aQX+n5VaxQnqDhbA2A6m56J9TvOhGy45RYwR-rJVc3VAp8UvLuJctNYZzV-NRZi446GVk0nqJhf56L7gluhQcc1WyBXAgheOKF3KyVYiZTqFlJZUVKthcsIFWLrlnB1CaM5rZjFWisBsEtlpWyioNRsy4S4VmmAecacNuwDRKmVHC+shxJzEldRsj4ELIj8ZtNqQ5hzThUTRbc+smoxU0ojdGMcNqVWDjRRSN5OpzlQSrNm5TiyIlBqtXCms-aYWEV2Q+LNFLByWNQa6ecaK1UwjRLKSjkSaTIleXUl8Gzbm7DYyZktBh-jQrNC8wUJ5DlITbECLZoJ4WOnhCsgzOZVmbpWP+a5mKUU6kdNc0EhzrWusHNCFE9zrQEseJilYYLVVnGspyKEdhxAbuMTidY7Iln-qbEsSTRn3VruY7CTkfxH3GLTUOo4IHopjkBfaZEqzqVqpuTqxZVyniXDWHYXtdy-h+l-GsbNqDR38SE1y3dZi53ujhcY0Usp4Q7LhWm3DMnovRkRWG4EiLbTzmxAeikXZfM0hPfSw4Sp+IKsFfSxKlzLylsFLx+5jw0RMgOc6f4sLA0NCAZMQY2TWvTJIVMvx0w8kBMCBQcJITQkYHCBEhBkSojaBiJs2JcT4HxISYkZIHiUmpGIWQ1BCBmnoOsCAtAxDqAmPQEQcBWQckoEGHkfIBRChFGKNApJiBDGiIwKw8pFTKjVJqEk2p9R6gNHmgMwAgwmnNJaa03anR2gdFaGo1AXRumIB6L0NRu2sCDOwQM9rMwgFDLATkS7pCRh6Im5N+BU2SC8FgTNaBs0zo3Y6jdPJszEFzA0fMgk+EXIqpgms4yVm1RLn1HsLYB4HgsTbH9o59wPO8YJfGrVkRvmit2TW09ML71wsHO2IFdSdXGInWatNNLnVffo9qkEflsxZoMZOgNtZKK3lhaqlUAoCW3Ota+lFlkRTzkfLCMd9GrQlmrTcNlmPYOTsS0yftmWB2CrTZjY1uoErnNJRpgnZo0cnEhZOZTrqaU3siWqx1zGbTLJ2cCgMVZgcXGtNWe832jlw+pEsFDf66lOSxT8DddSodM-rFFhVTn3KyabbsPHBJnVNuedGZLVzDnLN2DDsTUIqpydUlIc4ezVXRrOdcQ5wKPU5kQsCqm45Fj6ZFxBbcxLhVI2xXcsdU6PkRixQYxVRyYXMz2IlLd0anICdlU2VZNUpAlpEsORjZo3iC12AcJs4ZHRxddAc8qI5+M6tDI+MEDx0rettPZiM5r6RLv11pik-2FLysRkCc19qPkvNHPcEWFJqtmC05arFBKqL65xQOWNzyI3uj1D8HmWZRR-KcmcoC9KcVSqZyiNjarFkKVRa2q1myA0g55YFg4BpIX9izIR85OxEWxpWe6f4ZMCPBial8q5IXZz+4FWqC2K46wbsFMnjX7r6KxjWMlttNk-Q0mSt7ktZxSUloF7cBVbwk9HBy5GcL8GPshZlWOPdbGIyWCRjmurraa1V7Ig6e4Nok0JtMz+i0hLoUEnFF8pV0ag5+vgv2t4qOm1Wmzb8FPra0zIo7Mix4+mzV1F7-8YPvw3lg+DOF1t5up3PFuamJZkv3fRmha+gw4vVhvGWRe6fTYgpcqx78eE8aWJrDqzW4yB5Vlq3OX3slao6uDsRGKgkLmIZYdNThGTnvqUfH1TGfFjqbmCp88L85o4PygP2ISOEqLbgtXmu1GZJC2q5BezdzrTiupBB6lEXrYTggROiTESQ-UomRDiPEBIiSkgAMSWrTAvwt-JBTCgwKKIQpJXDREID4VodalSqg1FqJorqK2rfv2huqaBaDAFaF2huoOtAMOk6GOq6CIFOt6CALOvOgGD8JeiGNEGuvmrAbaLAFgOsLQHGAAArdBmiuBWC0A+BoCfDoHnp3736nDXq3r5jjjHxrj3SVgLadgSL8oSJgreIKaiEWw2SsQKxYThSrjcrSFDjAJ2SHJkTKyNgHitheLDTMYNSfyjK6iyKoTVheycx7ilhG6q4iFjCMwrTcp6TjiOxHS-Lfh5R6bUq-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-bWA94IjXUKnZU2Hfo-aoY1tU6CY3I4k847YNY-bZmqdVYGAA4zIC6K0C4OEIUyDQ9UekcAa2C-fWFZ43AFY+c3vVOQhdoKI4HTADqwGHQA46nf5aDdEAmhiwEAE0yK7cLbQQcLu6E7QR+-iw8-e8ff88hXZXi9oAHa8Ai3hVcBQKipk9k64LkxowHRDWgERQPUK3+zANQPE26hBbk+nRu8U5AN7ZIJU7i164WccKWQWQWeWWgBINIMEEmkRfBfWbQLWSDeQTM6UGAZIPWkMFaIu1a+o2gJUMmAJ5IPCy6AEDyMC5NVgVyPkEUFtZxywaWXOmgNp4x8xxhXQTWk2fgLQZh5UEDWOijaLTKA0GaAGDUGIEaOUA5zUFaLx2EGmKwHahkJQLyDALAIXR23gO1IgAkGwBwGcFwHgGoIA753G8wDwGwGyFQG6vIAgCgJwDgHgBDTenI0xfwL5y6OQDwLpbg-QRMPIPJcMzlwSNAAAAIrzXiaCf55cxUCArpmiXV4BwBwsQBVnheZfcArrbpJpk3ocxftdFd4ClexrleVfkMjfJp1fTIpDpqAPi0JqjfrDjfUCxdUDmhdc8AQGwBJdUCYBZc8CJsMjVfaB6CcdmCWAtn2AEXgWeDeB+ABDBB-WRB4HhDxApDJCSBsBAA']",
+    m("svg[data-icon='github'][viewBox='0 0 32 32']", {
+     style: {
+      "fill": "currentcolor"
+     }
+    }, [
+     m("title",
+      "flems.oi Playground"
+     ),
+     m("path[d='m31.536 14.883-7.245-7.245c-0.1472-0.1472-0.35201-0.23361-0.56001-0.23361h-0.88002c-1.104 0-2.0865 0.70722-2.4321 1.7568l-1.3664 4.1249c-0.1056 0.32001 0.1312 0.65282 0.47041 0.65282h2.4385c0.33601 0 0.57281 0.32961 0.46721 0.64642l-0.97282 2.9313c-0.1088 0.32321-0.40961 0.54401-0.75202 0.54401h-2.6593c-0.34241 0-0.64642 0.2176-0.75202 0.54401l-1.9584 5.9041c-0.60162 1.8048-1.952 3.1841-3.6641 3.8209 0.37441 0.37441 0.67522 0.38401 0.91202 0.38401h7.0338c0.21121 0 0.41281-0.0832 0.56001-0.23361l11.365-11.365c0.61122-0.61442 0.61122-1.6128-0.0064-2.2305zm-18.624 3.821c0.105-0.317-0.132-0.643-0.464-0.643h-2.3873c-0.32641 0-0.56001-0.32001-0.45761-0.63042l0.97602-2.9473c0.1088-0.32321 0.40961-0.54401 0.75202-0.54401h2.5889c0.34241 0 0.64642-0.2176 0.75202-0.54401l1.9552-5.8913c0.59842-1.808 1.952-3.1969 3.6673-3.8337-0.37441-0.37441-0.67522-0.38401-0.91202-0.38401h-6.9922c-0.21121 0-0.41281 0.0832-0.56001 0.23361l-11.367 11.362c-0.61762 0.61762-0.61762 1.6192 0 2.2369l7.245 7.245c0.1472 0.1472 0.35201 0.2336 0.56001 0.2336h0.83842c1.1072 0 2.0865-0.71042 2.4353-1.76z']")
+    ])
+   ),
+   
+  ])
+ )
+
+//pt5
+var Demo =
+m("article.baskerville.pb5", [
+ m("header.avenir.tc-l.ph3.ph4-ns.pt4.pt5-ns", [
+  m("h1.f3.f2-m.f-subheadline-l.measure.lh-title.fw1.mt0",
+   "A Night of Taking Photos at the Spooky Ruins of the Sutro Baths"
+  ),
+  m("time.f5.f4-l.db.fw1.baskerville.mb4",
+   "March 19th, 2015"
+  ),
+  m("img.w-100.dib.measure.f3[src='https://raw.githubusercontent.com/tankokai/media/master/image/01-obed-jose-alter-ego.jpg'][alt='A photo of sutro baths by Adam Morse']")
+ ]),
+ m("div.ph3.ph4-m.ph5-l", [
+  m("p.f4.mb4.center.measure.lh-copy", [
+   "On",
+   m("time",
+    "March 14, 1896"
+   ),
+   ", the Sutro Baths were opened to the public as the world's largest indoor swimming pool establishment."
+  ]),
+  m("div.measure.db.center.f5.f4-ns.lh-copy", [
+   m("img.db.w-100.mt4.mt5-ns[src='https://raw.githubusercontent.com/tankokai/media/master/image/02-obed-jose-alter-ego.jpg'][alt='Photo of the foundations of a building on a cliff overlooking a lighthouse.']"),
+   m("p",
+    "Before it burned to the ground, the structure filled a small beach\
+        inlet below the Cliff House, also owned by Adolph Sutro at the time.\
+        Shortly after closing, a fire in 1966 destroyed the building\
+        while it was in the process of being demolished."
+   ),
+   m("img.db.w-100.mt4.mt5-ns[src='https://raw.githubusercontent.com/tankokai/media/master/image/03-obed-jose-alter-ego.jpg'][alt='Photo of the sea with mist covering the rocky formations near the shore.']"),
+   m("p",
+    "During high tides, water would flow directly into the pools from the\
+        nearby ocean, recycling the two million US gallons of water in about an hour."
+   ),
+   m("img.db.w-100.mt4.mt5-ns[src='https://raw.githubusercontent.com/tankokai/media/master/image/04-obed-jose-alter-ego.jpg'][alt='Photo of a dusk skyline above a grassy rockface covered in trees.']"),
+   m("p",
+    "All that remains\
+        of the site are concrete walls, blocked off stairs and\
+        passageways, and a tunnel with a deep crevice in the middle. The\
+        cause of the fire was arson. Shortly afterwards, the developer\
+        left San Francisco and claimed insurance money."
+   ),
+   m("img.db.w-100.mt4.mt5-ns[src='https://raw.githubusercontent.com/tankokai/media/master/image/05-obed-jose-alter-ego.jpg'][alt='Photo of the sea and sky on the horizon with the foundations of a demolished house.']"),
+   m("p",
+    "During low tides, a powerful turbine water pump,\
+        built inside a cave at sea level, could be switched on from a control\
+        room and could fill the tanks at a rate of 6,000 US gallons a minute,\
+        recycling all the water in five hours."
+   )
+  ])
+ ])
+])
+
+
+//  Layouts Demo
+var Page = {
+ view: function() {
+  return m("main", [
+   Nav1,
+   Demo,
+  ])
+ }
+}
+
+
+// Router
+m.route(document.body, "/", {
+ "/": Page,
+})
+

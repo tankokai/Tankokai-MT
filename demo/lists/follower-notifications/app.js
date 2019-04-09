@@ -1,0 +1,151 @@
+//  tankokai.com/mt | Demo - Lists Follower Notifications | v0.0.0 
+
+var Nav1 =
+ m("header.bg-black-90.w-100.ph3.pv3.pv4-ns.ph4-m.ph5-l",
+  m("nav.f6.fw6.ttu.tracked", [
+  
+  m("a.link.dim.white.dib.h2.w2.br-100.mr3.[href='https://tankokai.com/mt/']",
+    m("svg[data-icon='facebook'][viewBox='0 0 32 32']", { style: { "fill": "currentcolor" } }, [
+     m("title", "Tankokai MT" ),
+     m("path[d='m16.264 1.8688c-4.1008 0-7.7186 2.3761-9.3317 6.1282-0.34356 0.79911-0.6604 1.931-0.74812 2.6742-0.05161 0.43714-0.06768 0.45925-0.58247 0.79385-3.614 2.3487-5.3575 6.8036-4.2924 10.968 0.43102 1.6853 1.2437 3.1367 2.5018 4.4671 2.9654 3.1352 7.4287 4.0207 11.461 2.2737l0.67934-0.29443 0.40256 0.19918c0.96258 0.47619 2.1952 0.85471 3.2584 1.0006 0.78225 0.10734 2.5146 0.0423 3.2881-0.12321 3.5813-0.76733 6.4264-3.282 7.5893-6.708 0.89504-2.6364 0.59471-5.8228-0.77076-8.179-0.71112-1.2271-1.9549-2.6086-2.9874-3.3179-0.36-0.24719-0.4114-0.32013-0.4114-0.58916 0-0.97165-0.63708-3.0419-1.2748-4.1424-1.8564-3.2033-5.1757-5.15-8.7818-5.15zm0.01637 1.4514c0.97588 0.002 1.3114 0.0389 2.0343 0.22715 2.0119 0.52434 3.6864 1.6461 4.9059 3.2856 0.7431 0.99898 1.3153 2.2876 1.5281 3.4412l0.07377 0.39965-0.70073-0.23811c-1.8502-0.62839-4.0018-0.68485-5.9331-0.15572-0.35464 0.0971-0.98072 0.32202-1.3914 0.5003l-0.74688 0.32429-0.55563-0.27969c-2.0665-1.0389-4.7275-1.2773-7.0768-0.63409-0.34938 0.0956-0.65859 0.15004-0.68731 0.1217-0.09557-0.0956 0.32551-1.3784 0.71165-2.168 0.94905-1.9407 2.7447-3.5745 4.7093-4.2853 1.1853-0.4289 1.8335-0.54089 3.1288-0.53843zm-5.8587 9.2236h11.156v2.0913l-4.3922-0.17537 0.33254 11.147h-3.0369l0.33255-11.147-4.3922 0.16668zm-4.362 0.31748c0.03538 0 0.1133 0.31975 0.17319 0.71079 0.38578 2.5201 1.8768 4.9799 3.9542 6.5231l0.61437 0.45627 0.05412 0.63405c0.24593 2.5311 1.8442 4.992 3.6077 6.7624 0 0.0797-1.0576 0.40162-1.7617 0.53636-1.4701 0.2812-3.3124 0.10204-4.774-0.46421-2.1436-0.83044-3.9719-2.6364-4.8461-4.7879-1.1517-2.8341-0.71611-6.1607 1.1184-8.5448 0.3806-0.49455 1.7367-1.8262 1.8598-1.8262zm20.239 0.30312 0.72881 0.73554c1.209 1.2203 1.8992 2.4402 2.3287 4.1171 0.23287 0.90925 0.28123 2.7619 0.09478 3.6295-0.29803 1.3867-0.83256 2.5685-1.656 3.6613-1.2555 1.6663-3.1937 2.8614-5.2823 3.2575v-0.00046c-0.86454 0.16441-2.4141 0.16366-3.2458-0.00053-0.33323-0.0658-0.90286-0.22299-1.2656-0.34885l-0.65915-0.18898c2.0309-2.0084 3.4014-4.001 3.8929-7.205l0.61183-0.3896c0.7996-0.50918 2.1732-1.8644 2.7191-2.683 0.82319-1.2343 1.3923-2.6093 1.6237-3.9236z']")
+    ])
+   ),
+  
+  m("a.link.dim.white.dib.h2.w2.br-100.mr3.[href='https://tachyons.io/components/']",
+    m("svg[data-icon='twitter'][viewBox='0 0 32 32']", {
+     style: {
+      "fill": "currentcolor"
+     }
+    }, [
+     m("title",
+      "Tachyons.io Components"
+     ),
+     m("path[d='m13.456 20.59c0.08802 0.28226-0.95188 2.1046-1.098 2.3603-1.1413 2.0179-2.7141 3.7139-3.5039 3.2551-0.94732-1.0089-0.20544-3.8806 0.11185-5.2981 0.90728-4.0092 1.8336-5.9446 3.1113-9.6855 0.12098-0.36066 0.20772-0.99525 0.53872-1.2258 0.33099-0.23055 0.87427-0.22827 1.2372-0.29447 5.7267-1.2449 12.225-0.63641 17.798-1.8513 0.30132-0.08902 0.38806-0.26479 0.33327-0.50676-0.03232-0.30848-0.08957-0.61384-0.1712-0.91308-0.14838-0.3561-1.7189-0.15751-2.5498-0.08218-5.3828 0.61794-11.375 0.77265-16.209 1.7668 0.32871-0.72818 0.66655-1.518 0.50904-2.3032-0.01899-0.09387-0.04493-0.18619-0.07761-0.2762-0.26708-0.73731-0.96558-1.2372-1.6983-1.4518-0.61404-0.18033-0.52958 0.24196-0.77612 0.73046-0.49701 0.94724-0.95112 2.0661-1.2783 3.0314-0.011377 0.07469-0.034488 0.1471-0.068481 0.21457-0.12036 0.14664-0.30685 0.22226-0.49534 0.20088-2.7822-0.00769-5.3241 0.5412-7.9643 0.81492-0.22827 0.0137-0.45654 0-0.68481 0.02283-0.15018-0.02337-0.30146 0.03488-0.39719 0.15294-0.34697 0.28077 0.13011 0.87427 0.34012 1.1413 0.45654 0.58665 0.72818 0.49078 1.3924 0.39491 1.9766-0.44349 4.122-0.41352 6.1313-0.46338 0.14153 0 0.37436-0.12098 0.45654 0.05022 0.029309 0.2322 0.025466 0.46739-0.011414 0.6985-1.4891 4.6418-3.0385 9.901-2.6867 14.267 0.10044 1.098 0.42915 1.4883 1.3902 2.1868 0.58209 0.4223 1.5568 0.5136 2.2599 0.36523 1.1137-0.25195 2.0545-0.99237 2.5612-2.0156l2.3352-4.5311z']")
+    ])
+   ),
+  
+  m("a.link.dim.white.dib.br-100.h2.w2.mr3.[href='https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvEAXwvW10QICsEqdBk2J4A9GIAEk4hjQBrWvIwR8dLGKzFJAH0kARGFlqSAtJIAyEOMTiSAYrShRaAdxgAnSQDlaxCJDUGP70dnoAbgAM+NGRkgA6aInhGF7eGOEAjJIAvImSWAAU8SCEMBgAJp74AEYA5qY1UBjU8qYAnNGuppmR0QAOhADM+P3hI2MALKZocKOE01jzAKymUCUU+QXFIJjh+GAAbAeux8TEAK74xB4t8jAVG5LIW1tFJRj4UBAK+BUQS1chAgjD+EBqRAATPhXNCah4en18FgPCNkIQPDAwDkAOQkYj9OCICSyBRKFRqWgaLRiHEAXQ2W2k7xAcHCdWQFWCGFMECEuLALRgNVoSnpyHCEBgrgAQrQAB64uJxIaQySq+lPYCSGwAT1giEk2pKkGcJUNJWoFw8mIYdBcHhKklYzoozyZzJ2-mIsCeJQAKnJFMoIJIALL+p0ASk2aGk8ZZ-WChE5uKwmWOkMOk0kmXwAA5Dvn89RTJN8L1IvnJJFTAB2fB1zKFyTQoZ1w6ZDr4IZDTJ1yTHTKQ-OQ0zRIaTIbLQ41xvtdqZLvRQ6HSI5vPtPvjxuTfPD1v4Q51yZj2LLDPZaJTpvTWLHotzybLdqQ1bRZajyYD6J1rf51YRk7HM2z3OtTGWHtljrZZBwLSIhkOMt8EhV8N2idpH2vPtIjVPMi2WIZcxQm91QrRCB2hZZImbSRy0mY9smhTDlhzEZMmnNUG1PfMB3LXDIgHJd8AYpiULrdsoBXP9Jx3VDJinJ9cJnOdMgXZtqAww432ra8OzUw81OWNVogA79shGHSNxiPpZ1-Uc31UwTJ0PC8GLnddISIyzi2XCsvMhCz8E-Didw7CSiOOU9s1MHyuOC-Mt1MY46yrOdEuo6ZoUORCcw-dpzIggtIRHMLUo7Ux8wrP8wqXYcehQyEmwa9pWPaUxsqrJDmN46YRj7GqJyQ6JIXM9rryXO8e0hGihh3SZJp3T9Fzsnd2ibQ53yPdsq1imIFvavMmr3ZDMlPaY8wAmLLIQubIP7aCisyVYqrrfd8ye5YAC8sFiDN22I58zs0-B1s-XSbLwntJo8oZEsPBDFJGprnoRpd2jnYypzYo9C2s7NOzo0HIhfMiRxU38pyvUH2kS6s8z7QjDxHDtiOM-cyIU4cpJiCS6x-HsF02sK+gkuS4aXUtLuos8jxHIZ2v4miPpXfM91WSCt23aJnug2XpwYvKYnWvzacEkzppmscGcXI3qIQqAwoY4s51VU9xuC5YZzmka-0OdpS2hSJV1WPMEMS5C6ya0PxLFhtBKLHccsmSIPcnf8PNa4aj0-Umdftqaiwk6nh37HdU698DYiz123wvBr2zVucmwzVZoQzCGCs6GOCsEw8T2-PboOfInUqS8tyaIvNm0I+aRwxy7ey21iqwx9iRxV4K4anH6ioA3jJHaRrEMIYTnsOcIg8XIZHfLBWSp3B6AYnVVWNzafv0IPaEP9nnezrnoH9wJ31fBbDMq58y7zvtpV2-Y9wgwQoRXSqkOJEQnGpGCqli4Y1-L0P8rsAJvVcjNbIl0OzVnLOtBcZFWqnjgsZPsPNgLPxEjOJqHlWIHhXJOEmINRoviIlRPspCCwKTVJQ18ZE1z8zgh2UaNYPJ-nAmHaCdkRI0W0g1fSAtCI5SQnmb8NE5wjnqv1YcRtegzWmOWfmU1DaBQ6hWKc2d8xDHXH1UGTZ2rZVyshNWnZI68UOhWC84FoSuIWrVTsXYhzSOIkuNWlVgoKQhnDYO80Cpe2IhJY8DVRwwOlrTPJWZIQ-RmihBWrsEJcMbBvamEkvaTGoEdVOxESoIWIolSR0IFK4UPKqA+5YlxNmMQMgWnRXywRGvuLy-dOw4ONt+asQFUJbVQvmDpDNCxVwLK-WcVECINU2rOICnY5pHS9rBfCq45rsS3JRAswEiojlmZZaCyxwjlz6AxUsplsxvx1tmSJPSzolz0UhSyz5N59BJj7Hs-84XB0-GtXChY5IlQXA1LMM4dyTmLMsR2K4XzPUfsWWm1Ag5uO8TZJuIwU5nWQn0IKiVUL1hQiTJhCS4Vw0wiDP8mElqp1ou3CS1tHkKX7mpLs2VXHpS8mpLFk4p6Cy8o4tcW5iLaXbHtV8iEvqahAFGD0dIjVxmkDGV4ZqWSfG+L8f4gJgSgn+BCQg0JYS1ARJWZEqJ8DokxNiPE5xCTEjELIaghBdShHwBAWgYh1D9HoCIOAtIGSUA9CyNkHIuSyF5PyHExBXAgkYB4cUkppRykVDiZU6o1QalTW6YAHodTEH1DAQ0jazXxgSOAaA6wkDdqtDaEQ9paCOhAE21gHp2Duk7Z6Eo3pfRptndIAMLQI1RpjZIAAwlSBNaAk0lCbRa5diZkyphxOmOlKlykvgQcWPp0ySrZ1as2as7d1z6ONm+nsa5zlOI4mjGq0JbxBSbArIeCE14oS9qbb8qoGp9AjiNEmCk9r3rUXVACzzabU06FHD6StJGL0QkVAq7l2JLjmkfAiUz-Kp03ohYOaiZr81lguYytGkFRyxTpV2VKPZeRJrR3qTV0WjiEhU7jI0yMDkglHXJR0FIL2hCVLaeiFq5gbH+D60sAMTlmrLVeD6ezobktmfBL9VQ7Oog+cuqp4P6bVtCjKOyzmJJ1k2NjHFdo6z3HDXFM4ux5ibEhkJMFpXJKKbEUczYipwxHHOTsf4LoM0wb+eTodMytOCxA2uvE-L4doiuEOMcLwQ2op0LKPYEKGebJi6ucMdnuKSjrQsCrYj8wCb7TRI1jw+cbO2bWoNNrIqOu2MV-tXENSBpvYC65SW3SWqsiGo01LZ06zUiSH6MmpVw9+Uaa0LwHiDquIL4lZUjGqVNGiHEZEdYYh7RGe4IZnWaveJz1NArPh2cOH+qkGIxX0wRYxJUswZMIkbGaVYPrAYcl8js7VIJu2ppwscDZMJIwLGdV8Yn2F-W1deGcAKk4fY8iVKb+dlbly8gT6rZ01GI2LLik2CznryVxQ9gWI5BIC280udKJ48c9npVDUFaDWGbTtoWTazcTEQ0mHh+mKqjYKwVyI9aq55rYwxkMh+E1OJwQ4qFa8OU4b-eemg12J4SM6xmrTJ8ROjYk1whbXCW5WkjVVK7t8AOnzHnA39UFRtJsxz3IuIm2ZYuXbhrBI+nQItFmPLmCeSedbfOsvRp8qFUYGOLMqhWfT26FnK6OD3IkSrKq9lhYKHF9nQeoUNBh8TbtyQvK1BGrEtoLi8g8wLY4g7nygG2TiyFCJLn1am01XaTVMmPSuq1OwbU-HkGCB1IIYBgghPCRE0RXUwmhCiNEGIsS4gAMQGtjF2jN7JOTclzfQXEdQQSEAuDUUtUpZQKiVAo1UNaL9GibT1ANAAOXW7VND7QtBoGtFtGIBHTHQnSnTdBeBPS9BBEXUvy7TANgCwDmFoFDAAAVmhdQ6gPBaALg0BHhx1l058r8dgkxiAUwKg0w+wt5ZwzoCwpsGx+E2V+FfknEpN+D9ZjIaJxZEI-IZwmVRDOwv5TINlcIpYKx1waxHEupaNyoH4elVQREYIixHYGZVwcxdcFc+DegKZpomVVI+wLZNoXknxUoNMiUXk98pwAIQZew1wrxMZCta5MJqYGIo5qYCZTxCVPFbDmI+whgTDoda4tD5pU5CYPxekCthCLZWJ6Uv5soBE+DJxVtlCVx7FjF+x1sUjMYki9DQZPwcxNZ1xMg+CPCCl4ITpNxjIyJmxIlTkNMRhS8Fl2wuYrc+jpJjILZt4jEMJfthi1YaJCB45ewSwRolxAoFEJoTFy5XFUi1wRDPcxCoBhJEJQ59DlgQZok9cjwzo6EVwFiJthxoVg4qtBNvosAegqptIcYYsQZTDcUy4dYHMjwpx5pAdfihgMiTMJJsiswHCloNi-JVRJDCd9Ik43FgiMIOxcJHECpQS08mcJwAo-D4jxCkjm4Uiloki99wYA4JxzpPD8jsxZZApWZfwiTEj6UdiKjjI95r4QYXw1YxUNkldWoxw7l-YpF-c0NewdlejIkJwB4-JjwhjcVJjTZxj5T0jkoaYSo+DApS48iRJrjqYqwfiJDRiKltjAEf0hJ9DIQ6iijrDrSk5rTNU1ITJmZEJ2goAuCR53TDjfMo5-sfSJxhDPt3DMYoTRkT5TJt5LTp5zYFEg5CwtomxPJDwpxZ4csJ8Sgp94wZ9O0aCEgzUszJBTVEgiykgSyUgvBDBjBchEgWQsAVA0BkRTg1ARBqh+hiBlgnhkDtgPgPB-BqBYA-hiAYQd9agt9TBGhmhWhxxIJ+gagD9iBIQ-UT8cRT9Ih-9OyuyQB-h9gKhYD98YQ5pZh8BPksAIBKCMCNyAQ6hahPgagxymg7hEQ-gt9PUkR3VXADy5g99hgZg4BkA4APBqBcR8Rg0JBbhXB8An8GDX8Lg4BPAhBGAGBKQNBSRgwVBNAHgIAMBNAMAbBPAxAMhuQPB8KUhZAEQSZRg0A6gDUMyaCWQtyBzqAjzTATyKhRgoAhgOymQWRT4DhjgwBVhDywBGyoAv4F0N97zWhkQohGRZ0Sh8CpQh1TAAAlWgagbdFQZwMg+UQ9bM887i6EI4E4csLQaILAGoaICStoNcGSrtEofoACgAARgHlGwH6H7PUB0vjAzJNQwLoogG3N3OPNPJsrnXAFHUBGHJuBCtCpqAuHOHoF4tqDiuIHoFMExFgsHPqFMCBHX2vNqDvInLaF6FX1GDwOEA8FGCyFqEKuSkiGQBbX6BgFxDgFfxPOIAvybRKAAGoHAnAXBXBPKvLZ8tgp8fL8hrUey+R+ydyhyvUahRzxyHzyKZy5yFzj8A0Vy1y3gdh6KdzGK3yPymKWLoqWRLy8rbzFrJziqKhnzhyDqfyoQiAPy-yAKgKg0iRQKMBwLIKX9YrYKAL6AELBz1BQ0gxyQIB0L-gsLazcKiKCLSLiLCLxxjh+hKLqKRrfKdr-KGKjrTy2KOLKAZ0EwdgeLDL+KHqhLjgRLTAxLqq7gpLIhoru1-QABLm4coC4KAbQLdDAC4cNegQagsvSkmgyvi1wYy4gUy8yumyc6ypdWykAWApylyrANyjfDyqgoavM2irGgKxioKs8rinYMAcK2apEKK+W4mkoWK+K+swym2lKtANK+AGATKhoHK0EGoG8gqh866gEUqn4YtSqvMSy2q+q3URq5q1qkEDq5dbq3qzSgazWrWlOgs-IMauMCa3s6awc7oOaha0O5a2c5Eecxcja1c+tImjc3a3c+6w8g2k6nYM6r2-Ky6oq6IG6j1O6t1Q6r856-8wCwNAkD6sQMCiC5-aC-6+CkQJC0GskEMSGzC7C2GxGhG+G1IccBsVGqiyfDG7akoGu-W5ivGtygmpAo2koUmvigSuYSmr4UStA8SwqhmpmkoAATXCHoG3UxHCBZsFpzP0sSqEolqlospqrlvPO7V1GoGVtcvcqpH-q2AztCsPtxsNs7RZBNo8Aiq9QtsgZZAdoSvtuStSvStdtqHdsdXEu9rbsfPtQDvKuDplqsrqoaqapxBapqDatjswPjscETsFrTuzJGvTrnyzqmo3xmrzqRHmtbsLunOLq0DWv9TPwrs4oXwPuxr2r3PfIeobstovKwCvJboutDuutuq9Trs-OhG-NmBesHuApHrHp+snrgsBpnpBpQvBsXuhpwuLVXtSACbIqqm3vRrNR1s0b1rQfxvUattKDzDJpvpOCpofp9CfvpqwGkoMe7QAGU5A4Bw05ASCfg7B9AcQABBYwa0OAf+4Wy+0Woyku0B5h2q1+1kCoWB1W+BrARB7WzGyJnG-RupsK7Bs26IPB9NHYQhu244aZ52jKih7Kqh86n2q6ju-2hNQOlsqq0OtccOyOjh6O9q+tTqkAHq-h-qwRjMoR81URxILM4sj0R5tACQaQCwDASNOK0powWgZIVISQfAjAOoGAXIEAyQMtVwQ0MAcg6gEINAQoKMMFyQTES4DwTOnYWsn4WJ6QdILIc8is2gDA-MydNAEl4s15lSuKzwas-AUgqlwoCoVSi4HARCkUCoXUN0EoMQLUfILl80AFoFmAWMVgQstASgVkGAWAWFmNWYPAZ6TIRASINgDgXYLgPANQOAAQGgdx5gHgNgOkKgW1eQBAFATgHAPANqjEaAfAfgcV60cgHgRxkNcg-oeQK8kGy1jwaABy6eI8TQZ-L1qAG1rVthvAApr11s5Vs17gRWtdSNQ8k8+s6gTVu1jwB10od651tAV191qkUG8NeNuAByoZWIONTV-N9dBNn4DVkNiOmNoA3AVgA11V81ngLxkMWerQXQAwH5swSwawWwBO-qzwHwPwAIPkYIGVsIcF2IGISQNgIAA']",
+    m("svg[data-icon='github'][viewBox='0 0 32 32']", {
+     style: {
+      "fill": "currentcolor"
+     }
+    }, [
+     m("title",
+      "flems.oi Playground"
+     ),
+     m("path[d='m31.536 14.883-7.245-7.245c-0.1472-0.1472-0.35201-0.23361-0.56001-0.23361h-0.88002c-1.104 0-2.0865 0.70722-2.4321 1.7568l-1.3664 4.1249c-0.1056 0.32001 0.1312 0.65282 0.47041 0.65282h2.4385c0.33601 0 0.57281 0.32961 0.46721 0.64642l-0.97282 2.9313c-0.1088 0.32321-0.40961 0.54401-0.75202 0.54401h-2.6593c-0.34241 0-0.64642 0.2176-0.75202 0.54401l-1.9584 5.9041c-0.60162 1.8048-1.952 3.1841-3.6641 3.8209 0.37441 0.37441 0.67522 0.38401 0.91202 0.38401h7.0338c0.21121 0 0.41281-0.0832 0.56001-0.23361l11.365-11.365c0.61122-0.61442 0.61122-1.6128-0.0064-2.2305zm-18.624 3.821c0.105-0.317-0.132-0.643-0.464-0.643h-2.3873c-0.32641 0-0.56001-0.32001-0.45761-0.63042l0.97602-2.9473c0.1088-0.32321 0.40961-0.54401 0.75202-0.54401h2.5889c0.34241 0 0.64642-0.2176 0.75202-0.54401l1.9552-5.8913c0.59842-1.808 1.952-3.1969 3.6673-3.8337-0.37441-0.37441-0.67522-0.38401-0.91202-0.38401h-6.9922c-0.21121 0-0.41281 0.0832-0.56001 0.23361l-11.367 11.362c-0.61762 0.61762-0.61762 1.6192 0 2.2369l7.245 7.245c0.1472 0.1472 0.35201 0.2336 0.56001 0.2336h0.83842c1.1072 0 2.0865-0.71042 2.4353-1.76z']")
+    ])
+   ),
+   
+  ])
+ )
+
+
+
+
+
+var Demo =
+m("main.mw6.center.pt5", [
+ m("article.dt.w-100.bb.b--black-05.pb2.mt2[href='#0']", [
+  m("div.dtc.w2.w3-ns.v-mid",
+   m("img.ba.b--black-10.db.br-100.w2.w3-ns.h2.h3-ns[src='https://raw.githubusercontent.com/tankokai/media/master/avatar/avatar-05.png']")
+  ),
+  m("div.dtc.v-mid.pl3", [
+   m("h1.f6.f5-ns.fw6.lh-title.black.mv0",
+    "Pierre-Roc Cailloux"
+   ),
+   m("h2.f6.fw4.mt0.mb0.black-60",
+    "prc@example.com"
+   )
+  ]),
+  m("div.dtc.v-mid",
+   m("form.w-100.tr",
+    m("button.f6.button-reset.bg-white.ba.b--black-10.dim.pointer.pv1.black-60[type='submit']",
+     "+ Follow"
+    )
+   )
+  )
+ ]),
+ m("article.dt.w-100.bb.b--black-05.pb2.mt2[href='#0']", [
+  m("div.dtc.w2.w3-ns.v-mid",
+   m("img.ba.b--black-10.db.br-100.w2.w3-ns.h2.h3-ns[src='https://raw.githubusercontent.com/tankokai/media/master/avatar/avatar-06.png']")
+  ),
+  m("div.dtc.v-mid.pl3", [
+   m("h1.f6.f5-ns.fw6.lh-title.black.mv0",
+    "Tétreault Cauchon"
+   ),
+   m("h2.f6.fw4.mt0.mb0.black-60",
+    "tc@example.com"
+   )
+  ]),
+  m("div.dtc.v-mid",
+   m("form.w-100.tr",
+    m("button.f6.button-reset.bg-white.ba.b--black-10.dim.pointer.pv1.black-60[type='submit']",
+     "+ Follow"
+    )
+   )
+  )
+ ]),
+ m("article.dt.w-100.bb.b--black-05.pb2.mt2[href='#0']", [
+  m("div.dtc.w2.w3-ns.v-mid",
+   m("img.ba.b--black-10.db.br-100.w2.w3-ns.h2.h3-ns[src='https://raw.githubusercontent.com/tankokai/media/master/avatar/avatar-07.png']")
+  ),
+  m("div.dtc.v-mid.pl3", [
+   m("h1.f6.f5-ns.fw6.lh-title.black.mv0",
+    "Yvon Crevé"
+   ),
+   m("h2.f6.fw4.mt0.mb0.black-60",
+    "yc@example.com"
+   )
+  ]),
+  m("div.dtc.v-mid",
+   m("form.w-100.tr",
+    m("button.f6.button-reset.bg-white.ba.b--black-10.dim.pointer.pv1.black-60[type='submit']",
+     "+ Follow"
+    )
+   )
+  )
+ ]),
+ m("article.dt.w-100.bb.b--black-05.pb2.mt2[href='#0']", [
+  m("div.dtc.w2.w3-ns.v-mid",
+   m("img.ba.b--black-10.db.br-100.w2.w3-ns.h2.h3-ns[src='https://raw.githubusercontent.com/tankokai/media/master/avatar/avatar-08.png']")
+  ),
+  m("div.dtc.v-mid.pl3", [
+   m("h1.f6.f5-ns.fw6.lh-title.black.mv0",
+    "Sanschangrins D'Amours"
+   ),
+   m("h2.f6.fw4.mt0.mb0.black-60",
+    "sd@example.com"
+   )
+  ]),
+  m("div.dtc.v-mid",
+   m("form.w-100.tr",
+    m("button.f6.button-reset.bg-white.ba.b--black-10.dim.pointer.pv1.black-60[type='submit']",
+     "+ Follow"
+    )
+   )
+  )
+ ])
+])
+
+
+
+    
+
+
+//  Layouts Demo
+var Page = {
+ view: function() {
+  return m("main", [
+   Nav1,
+   Demo,
+  ])
+ }
+}
+
+
+// Router
+m.route(document.body, "/", {
+ "/": Page,
+})
+
