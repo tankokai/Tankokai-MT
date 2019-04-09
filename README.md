@@ -106,7 +106,7 @@ Thanks to
 ---
 [![I Love Montreal](https://raw.githubusercontent.com/tankokai/media/master/tshirt/i-love-montreal-00.png)](https://varoem.com/jelovemontreal) 
 
-From Montreal With Love!
+From Montréal With Love!
 
 ## License
 MIT
