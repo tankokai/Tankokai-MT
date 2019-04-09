@@ -1,10 +1,8 @@
 # Tankokai MT
 Tankokai MT | HyperScript + Functional css | MithrilJS &amp; TachyonsCSS
 ## [View Components Demo](https://tankokai.com/mt/) 
-On Chrome: click on tankokai-0.0.0 button to load components.
----
 ![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/readme01.png)
-
+Click on tankokai-0.0.0 button to load components.
 ## General info
 Create single page applications and design new UI with as little css as possible. 
 The purpose of the project is to show how Tachyons CSS fits with Mithril JS.
