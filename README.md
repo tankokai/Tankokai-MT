@@ -1,7 +1,8 @@
 # Tankokai MT
 Tankokai MT | HyperScript + Functional css | MithrilJS &amp; TachyonsCSS
 ## [View Components Demo](https://tankokai.com/mt/) 
-On Chrome click on tankokai-0.0.0 button to load components.
+On Chrome: click on tankokai-0.0.0 button to load components.
+![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/readme01.png)
 
 ## General info
 Create single page applications and design new UI with as little css as possible. 
@@ -19,19 +20,15 @@ The purpose of the project is to show how Tachyons CSS fits with Mithril JS.
 * [Support](#support)
 
 ## Screenshots
-Headers Startup Hero
-![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/screenshot069.jpg)
 
-Tables Striped Dark
-![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/screenshot148.jpg)
+![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/readme02.png)
 
-Forms Newsletter Subscription
-![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/screenshot062.jpg)
+![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/readme03.png)
 
-Footer
-![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/screenshot058.jpg)
+![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/readme04.png)
 
-150+ ...
+![Example screenshot](https://raw.githubusercontent.com/tankokai/media/master/sshotv0.0.0/readme05.png)
+
 
 ## Setup
 * Step 1 - Clone or Download Tankokai MT.
